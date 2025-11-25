@@ -5,13 +5,14 @@
 }
 nav{
     background-color: #575755;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     display: flex;
+    font-weight: bolder;
+    font-size: 20px;
 }
 .menu {
     margin-left: 40%; 
-
     display: flex;
     gap: 20px;
     align-items: center;
@@ -24,28 +25,34 @@ nav{
 a:hover{
     color: #ff0000;
 }
-h2{
-   padding: 5px;
-}
-img {
-  border-radius: 50%;
-}
 
+img#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 main h1{
-    color: #222221;
+    color: #ffffff;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer{
     background-color:#5e5e5e;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 1em;
+    padding: 1vh;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -57,3 +64,21 @@ a#link{
     font-weight: bold;
     text-decoration: underline;
 }
+div#container{
+    display: flex;
+}
+div#descrição{
+    width: 40%;
+    margin-left: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #000000;
+    margin-right: 20px;
+    background-color: red;
+}
+main{
+    background-color: #ff0000;
+}
+body{
+    background-color: blue  ;
+}
+
