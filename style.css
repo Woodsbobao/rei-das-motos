@@ -45,7 +45,6 @@ a{
 main h1{
     color: #ffffff;
     text-align: center;
-    margin-top: 1%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer{
@@ -76,9 +75,9 @@ div#descrição{
     background-color: red;
 }
 main{
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 body{
-    background-color: blue  ;
+    background-color: rgb(255, 255, 255)  ;
 }
 
