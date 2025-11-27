@@ -10,6 +10,7 @@ nav{
     display: flex;
     font-weight: bolder;
     font-size: 20px;
+    color: chartreuse;
 }
 .menu {
     margin-left: auto;
@@ -17,14 +18,16 @@ nav{
     display: flex;
     gap: 20px;
     align-items: center;
+    color: rgb(255, 0, 0);
 }
 .menu li {
     list-style: none;
+    color: rgb(255, 0, 0);
 }
 
 
 a:hover{
-    color: #2d8c9c;
+    color: red;
 }
 
 img#logo{
@@ -38,8 +41,8 @@ p{
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
-    text-decoration: none;  
+nav a{
+    text-decoration: none;
     color: rgb(255, 0, 0);
 }
 
@@ -50,19 +53,20 @@ main h1{
 }
 footer{
     background-color:#000000;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 1vh;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    height: 2em;
 }
 a#link{
     font-weight: bold;
     text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 div#container{
     display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha */
+    gap: 10px;
 }
 div#descrição{
     width: 40%;
@@ -70,12 +74,30 @@ div#descrição{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid #000000;
     margin-right: 20px;
-    background-color: red;
+    background-color: #ff0000;
 }
 main{
-    background-color: #575755;
+    background-color: #777776;
+    background-image: url(img/yamaha.jpg);    
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 body{
     background-color: rgb(255, 0, 0)  ;
+}
+
+.inicio{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 5%;
+}
+h1#inicio{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-top: 5%;
 }
 
