@@ -76,13 +76,13 @@ div#descrição{
     margin-right: 20px;
 }
 main{
+    background-image: url('../img/yamaha.jpg'); 
     background-color: #777776;
-    background-image: url(img/yamaha.jpg);    
     background-repeat: no-repeat;
     background-position: center top;
 }
 body{
-    background-color: rgb(255, 0, 0)  ;
+    background-color: #777776;
 }
 
 .inicio{
