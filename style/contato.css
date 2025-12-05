@@ -73,8 +73,12 @@ footer{
 }
 @media (min-width: 1920px) {
     img#imgfooter {
-        margin-left: 100px;
+        margin-left: 150px;
     }
    ul#contato {
-       margin-right: 100px;
+       margin-right: 150px;
    }
+   div#footer {
+       background-color: red;
+   }
+}
