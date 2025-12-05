@@ -71,3 +71,10 @@ footer{
     height: 2em;
     padding-top: 5px;
 }
+@media (min-width: 1920px) {
+    img#imgfooter {
+        margin-left: 100px;
+    }
+   ul#contato {
+       margin-right: 100px;
+   }
