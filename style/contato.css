@@ -31,6 +31,12 @@ a{
     text-decoration: none;
     color: rgb(255, 0, 0);
 }
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 nav a{
     text-decoration: none;
     color: rgb(255, 0, 0);
@@ -44,8 +50,6 @@ div#footer{
     background-color: #000000;
     color: white;
     padding: 1.5em;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
     display: flex;
     padding-top: 1.5em;
     flex-wrap: wrap;
@@ -70,6 +74,8 @@ footer{
     width: 100%;
     height: 2em;
     padding-top: 5px;
+    position: fixed;
+    bottom: 0;
 }
 @media (min-width: 1920px) {
     img#imgfooter {
@@ -77,8 +83,5 @@ footer{
     }
    ul#contato {
        margin-right: 150px;
-   }
-   div#footer {
-       background-color: red;
    }
 }
